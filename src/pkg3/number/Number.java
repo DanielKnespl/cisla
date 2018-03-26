@@ -16,7 +16,7 @@ public class Number {
         System.out.println("vloz cisla");
         double max = 0;
         double x = 0;
-        double s = 0;
+        double s = 1;
         for (int i = 0; i < 3; i++) {
         x = a.nextDouble();
         if (max==x){
@@ -28,7 +28,7 @@ public class Number {
         }
         System.out.println();
         System.out.print("nejvetsi je: "+max+", ");
-        if(0<s){
+        if(1<s){
         System.out.println(s+"-krát");
         }
     }
