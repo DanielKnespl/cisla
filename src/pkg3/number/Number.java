@@ -24,6 +24,7 @@ public class Number {
             }  
             if (max<x){
                 max=x;
+                s=0;
             }
         }
         System.out.println();
